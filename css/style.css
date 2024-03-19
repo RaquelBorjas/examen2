@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap')
+
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: "Catamaran";
+}
+:root{
+	--color-negro:#282d33;  
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc; 
+	
+}
+
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides h5{
+	text-transform:uppercase;
+	font-size: 50px;
+	font font-weight: 800;
+	text-align: left;
+}
+
+#hero-slides h2{
+	text-transform:uppercase;
+	font-size: 25px;
+	font font-weight: 800;
+	text-align: left;
+	border: 3px solid #FFFFFF;
+	padding: 3%
+}
+
+.btn-center{
+	text-align: left;
+}
+.btn-athlete{
+	background-color: var(--color-rojo);
+	padding: 10px 30px;
+	font-weight: 600;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+	
+}
+
+
+#intro{
+	padding: 10%;
+	background-color: var(--color-negro);
+}
+
+#intro h5{
+	font-size: 15px;
+}
+
+#intro img{
+	filter: grayscale(1);
+}
+
+.bg-img{
+	background-color: #000;
+		
+}
+
+.caja-texto{
+	padding-top: 20px;
+	color: #FFFFFF;
+}
+
+.btn-rojo{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+
+.product-price {
+	color:var(--color-rojo);
+	
+}
+
+
+#products{
+	padding: 5%;
+	background-color: var(--color-negro);
+}
+
+bg-img-product{
+	background-color:#161616;
+}
+
+#products img{
+	width: 100%;
+}
+
+.product-title{
+	color: #FFFFFF;
+	padding-top: 7%;
+	padding-bottom: 3%;
+}
+
+.price-1{
+	color: grey;
+}
+
+.bg-img-product-1{
+	background-color: #000;
+	padding: 5%;
+}
+#products .text{
+	background-color: var(--fondo-tarjeta);
+}
+
+.cta{
+	background-image: url("../img/bg-parallax.png");
+	padding: 5%;
+}
+
+.cta h5{
+	color: #fff;
+	font-size: 40px;
+}
+
+.cta h2{
+	color: #fff;
+	font-weight:200
+}
+
+.btn-cta{
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
